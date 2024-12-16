@@ -57,7 +57,7 @@ I had the opposite understanding, always closing it, so I never handled more tha
 
 3 - You have access to the workers of browser sessions.
 
-I didn't know this either, and could check if one was already open and make a `connect` instead of launch, kind of like a `round-robin`.
+I didn't know this either, and could check if one was already open and make a `connect` instead of launch. So I can implement something like a `round-robin` strategy
 
 4 - You should close the browser WHEN an error occurs, but only `disconnect` the session if you can do what you need to do, freeing it up for another request.
 
